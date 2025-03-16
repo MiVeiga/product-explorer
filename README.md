@@ -4,6 +4,12 @@
 
 ---
 
+## About the Project
+
+- Developed in 3 hours
+
+- Fetches and displays products from an external API
+
 ## Features
 
 ✅ **Product Listing** – Displays products with images, prices, discounts, and ratings.  
@@ -24,7 +30,9 @@ This project was built using the following technologies:
 - **Material UI (MUI)** → Provides responsive and styled components.  
 - **CSS Modules** → Offers modular and isolated component styling.  
 - **Axios** → Handles HTTP requests to fetch API data.  
-- **Vite** → Ensures a fast and efficient development environment.  
+- **Vite** → Ensures a fast and efficient development environment.
+- **Vitest** → Used for unit and integration testing.
+- **MSW (Mock Service Worker)** → Mocks API responses for testing.
 
 ---
 
