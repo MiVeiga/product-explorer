@@ -31,6 +31,7 @@ export default function Filters() {
         <FormControl className={styles.filterItem}>
           <InputLabel>Category</InputLabel>
           <Select
+            data-testid="category-select"
             value={category}
             label="Category"
             onChange={(e: SelectChangeEvent) => setCategory(e.target.value)}
@@ -47,6 +48,7 @@ export default function Filters() {
         </FormControl>
 
         <TextField
+          data-testid="search-input"
           label="Product Name"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
@@ -57,6 +59,7 @@ export default function Filters() {
         <FormControl className={styles.filterItem}>
           <InputLabel>Sort by Price</InputLabel>
           <Select
+            data-testid="sort-select"
             value={sort || ""}
             label="Sort by Price"
             onChange={(e: SelectChangeEvent) =>
@@ -71,7 +74,12 @@ export default function Filters() {
           </Select>
         </FormControl>
 
-        <Button variant="contained" color="primary" onClick={resetFilters}>
+        <Button
+          data-testid="clear-filters"
+          variant="contained"
+          color="primary"
+          onClick={resetFilters}
+        >
           Clear Filters
         </Button>
       </Box>
