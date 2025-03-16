@@ -1,11 +1,14 @@
 import styles from "./styles/global.module.css";
+import { ProductProvider } from "./context/ProductProvider.tsx";
 
 function App() {
   return (
     <div className={styles.container}>
-     <h1>Product Explorer</h1>
+      <ProductProvider>
+        <h1>Product Explorer</h1>
+      </ProductProvider>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
