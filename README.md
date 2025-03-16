@@ -10,6 +10,9 @@
 
 - Fetches and displays products from an external API
 
+![Product Explorer](public/home.png)
+![Product Explorer](public/detail.png)
+
 ## Features
 
 ✅ **Product Listing** – Displays products with images, prices, discounts, and ratings.  
