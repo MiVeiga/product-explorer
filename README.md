@@ -1,6 +1,6 @@
 # Product Explorer
 
-**Product Explorer** is a web application that allows users to view, filter, search, and sort products efficiently. It utilizes the [DummyJSON API](https://dummyjson.com/products) to fetch product data.
+**Product Explorer** is a web application that allows users to view, filter, search, and sort products efficiently. It utilizes the [DummyJSON Products API](https://dummyjson.com/products)  to fetch product data.
 
 ---
 
@@ -30,7 +30,12 @@ This project was built using the following technologies:
 
 ## API Used
 
-The application retrieves data from **[DummyJSON API](https://dummyjson.com/products)**, which provides a list of mock products for testing and development.  
+## 🔗 API Used
+
+This application consumes data from **[DummyJSON API](https://dummyjson.com/products)**, a public API that provides mock product data for development and testing.
+
+📌 **Official Website:** [DummyJSON](https://dummyjson.com)  
+📌 **API:** [DummyJSON Products API](https://dummyjson.com/products) 
 
 ## How to Run the Project
 
