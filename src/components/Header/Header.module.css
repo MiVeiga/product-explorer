@@ -1,0 +1,8 @@
+.header {
+    background-color: #4a90e2 !important; 
+    box-shadow: none;
+  }
+  
+  .title {
+    flex-grow: 1; 
+  }
