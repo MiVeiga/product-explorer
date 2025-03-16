@@ -35,8 +35,20 @@ The application retrieves data from **[DummyJSON API](https://dummyjson.com/prod
 ## How to Run the Project
 
 1 - Clone the repository
+
 ```js
 git clone https://github.com/MiVeiga/product-explorer.git
 cd product-explorer
 ```
 
+2- Install dependencies
+
+```js
+npm install
+```
+
+3- Start the development server
+
+```js
+npm run dev
+```
